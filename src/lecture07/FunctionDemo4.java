@@ -1,4 +1,4 @@
-package lecture7;
+package lecture07;
 
 public class FunctionDemo4 {
 	static int val=100;
