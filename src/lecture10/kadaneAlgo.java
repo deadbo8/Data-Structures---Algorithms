@@ -1,6 +1,6 @@
 package lecture10;
 
-public class CadenceAlgo {
+public class kadaneAlgo {
 
 	public static int maximumSum(int[] nums) {
 		int max = Integer.MIN_VALUE;
