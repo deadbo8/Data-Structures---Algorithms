@@ -12,7 +12,7 @@ public class CoinToss_withNoConsequetiveHH {
 
 			outcomes(n - 1, s + "H");
 			
-			if (s.length() <= 1 || !(s.charAt(s.length() - 1) != 'T' && s.charAt(s.length() - 2) != 'T' )) {
+			if (s.length() <= 1 || s.charAt(s.length() - 1) != 'T' || s.charAt(s.length() - 2) != 'T' ) {
 			outcomes(n - 1, s + "T");
 			}
 	}
