@@ -20,7 +20,7 @@ public class NextPermutation {
 
 		Arrays.sort(arr);
 
-		if (arr.length > 1) {
+		if (arr.length > 1 && ) {
 			int temp = arr[n - 1];
 			arr[n - 1] = arr[n - 2];
 			arr[n - 2] = temp;
