@@ -19,13 +19,13 @@ public class CoinChange_322 {
 		for(int i=pos; i<arr.length;i++) {
 			list.add(arr[i]);
 			minCoins(arr, target-arr[i],count+1,i,list);
-			list.remove(list.size()-1);
+			list.remove(list.size()-1);   // Backtracking
 		}
 		
 	}
 	public static void main(String[] args) {
 		int[] arr = {2, 3, 5};
-		int target=8;
+		int target=7;
 		
 		List<Integer> list = new ArrayList<>();
 		

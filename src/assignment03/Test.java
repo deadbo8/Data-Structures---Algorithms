@@ -4,23 +4,17 @@ public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.out.println(Math.pow(2.00, -2));
 		
-		String s ="())))))))))))))))))(";
+		char c = '2';
 		
-		int count = 0;
-		
-		
-		for (int i = 0; i < s.length(); i++) {
-			if (s.charAt(i) == '(') {
-				count++;
-
-			}
-
+		int t =c-'0';
+			
+			System.out.println(t);
 		
 		
 		}
-		System.out.println(count);
 		
 
 }
-}
+
