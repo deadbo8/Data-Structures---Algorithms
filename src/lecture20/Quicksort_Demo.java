@@ -25,7 +25,7 @@ public class Quicksort_Demo {
 	}
 	
 	public static void quicksort(int[] arr, int start, int end) {  //best is nlogn , average is nlogn , worst n^2(already sorted)
-		if(start ==end) {
+		if(start >=end) {
 			return;
 		}
 		

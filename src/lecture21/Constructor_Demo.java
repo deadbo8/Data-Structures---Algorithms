@@ -2,32 +2,32 @@ package lecture21;
 
 class Student {
 	String name;
-	int age;
+	private int age;
 	double marks;
-	
-	
-	Student(String n, int a ,double m) {
-		name=n;
-		age=a;
-		marks=m;
+
+	Student(String n, int a, double m) {
+		name = n;
+		age = a;
+		marks = m;
 	}
-	
-	 public void detials(){
-		System.out.println(name+" "+age+" "+marks);
+
+	Student(String name, int age) {  //this referce to class wala variable
+		this.name = name;
+		this.age = age;
 	}
-	 
-	 
-	 public static void f() {
-		 System.out.println("Hello");
-	 }
+
+	public void detials() {
+		System.out.println(name + " " + age + " " + marks);
+	}
 }
-	
 
 public class Constructor_Demo {
 	public static void main(String[] args) {
-		Student s1 = new Student("Akshant",23, 100.0);
-		
+		Student s1 = new Student("Akshant", 24,100.00);
+		Student s2 = new Student("Dims", 24);
+
 		s1.detials();
+		s2.detials();
 	}
 
 }
